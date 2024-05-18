@@ -17,6 +17,10 @@ def split_list(list_1):
                 pozička=character+1
     return(s_list)
 
+#A->a
+ord (guessed_char) in range (65, 91) :
+            guessed_char = chr (ord (guessed_char) + 32)
+
 #HTML
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
