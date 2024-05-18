@@ -2,6 +2,7 @@
 file1 = open(mode='r', encoding='UTF-8', file='XY.txt')
 file2 = open(mode='w', encoding='UTF-8', file='XY.txt')
     print(XY, file=file2)
+
 #split
 def split_list(list_1):
 
