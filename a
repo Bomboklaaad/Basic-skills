@@ -1,1 +1,16 @@
+#file
 file1 = open(mode='r', encoding='UTF-8', file='rc.txt')
+
+#split
+def split_list(list_1):
+
+    s_list=[]
+
+    for i in list_1:
+        i+=' '
+        pozička=0
+        for character in range(len(i)):
+            if i[character]==' ':
+                s_list+=[i[pozička:character]]
+                pozička=character+1
+    return(s_list)
